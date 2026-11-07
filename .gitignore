@@ -1,0 +1,27 @@
+# Secrets
+.env
+.env.*
+
+# Allow the example configuration
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.venv/
+venv/
+
+# IDE
+.vscode/
+
+# Generated database and artifacts
+*.db
+*.sqlite3
+artifacts/lessons/*
+artifacts/evaluation_logs/*
+
+# Keep artifact folders in Git
+!artifacts/lessons/.gitkeep
+!artifacts/evaluation_logs/.gitkeep
